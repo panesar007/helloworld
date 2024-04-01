@@ -6,9 +6,7 @@
 * 
 *  https://www.senecacollege.ca/about/policies/academic-integrity-policy.html
 * 
-*  Name:Gurpreet Kumar Student ID: 137470225 Date: ______________
-*
-*  Published URL: https://dark-ox-dirndl.cyclic.app/
+*  Name: Harnoor Panesar Student ID: 182900217 Date: 03/26/2024
 *
 ********************************************************************************/
 
@@ -25,7 +23,7 @@ app.set('view engine', 'ejs');
 legoData.initialize()
   .then(() => {
     app.get('/', (req, res) => {
-      res.render('home', { pageTitle: 'Assignment 2: Gurpreet Kumar - 137470225' });
+      res.render('home', { pageTitle: 'Assignment 2: Harnoor Panesar - 182900217' });
     });
 
     app.get('/about', (req, res) => {
